@@ -1,0 +1,395 @@
+body{
+    background-color: rgb(240, 232, 223);
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    color: #b4a18b;
+}
+/* HEADER*/
+.headerContent{
+    display: inline-block
+}
+.icon{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 27px;
+    left: 18px;
+    display: inline-block;
+    transition: all 3s;
+}
+.icon:hover {
+    transform: rotate(1080deg);
+  }
+.headerTitle{
+    font-family: Helvetica;
+    font-size: 35px;
+    font-weight: bold;
+    color: #8C6169;
+    text-decoration: none;
+    margin-top: 35px;
+    margin-left: 70px;
+    display: inline-block;
+}
+.navContent{
+    padding: 20px;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    display: inline-block;
+    word-spacing: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #8C6169;   
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: initial;
+}
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 70%; 
+  }
+}
+
+.listaOne li{
+    display:inline;
+     padding-left:3px;
+     padding-right:3px;
+     text-decoration: none;
+}
+.caja{
+    word-spacing: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #8C6169;
+}
+.caja:hover{
+    text-decoration: none;
+}
+.piepagina{
+    text-align: center;
+    margin-top: 30px;
+}
+.iconify{
+    font-size: 40px;
+    color: #8C6169;
+    transition: all 3s;
+    animation: bounce 2s
+}
+.iconify:hover{
+    color:rgb(206, 14, 190);
+ animation: bounce 2s infinite;
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
+/* BODY - TITLE - IMG*/
+.imgCentral{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    margin-top: 5px;
+}
+.carousel-inner{
+    margin: 10px;
+}
+.title-welcome{
+    color:#8C6169;
+    font-size: 40px;
+    font-weight: bolder;
+    word-spacing: 15px;
+    letter-spacing: 4px;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+.content-welcome{
+    text-align: center;
+    padding: 20px 60px; 
+    margin: 10px 60px 50px 20px;
+    display: flex;
+}
+.title-second{
+    color:#8C6169 ;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    word-spacing: 15px;
+    letter-spacing: 4px;
+    font-weight: bolder;
+}
+.content-second{
+    text-align: center;
+    margin: 10px 10px 30px 10px;
+}
+.img-grid{
+    width: 250px;
+    height: 250px;
+    border-radius: 120%; 
+}
+.img-grid:hover{
+    transition: all 3s;
+    transform: scale(2,2);
+}
+.grid-imagen{
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+    grid-template-rows: 300px 10px;
+    grid-column-gap: 15px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.link_grid_redondo{
+    text-decoration: none;
+    color:#8C6169 ;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    word-spacing: 15px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+section{
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*Contenido Final index img+text*/
+.title_third_index{
+    text-align: center;
+    margin: 30px 60px;
+    display: flex;
+}
+.contenido_third_index{
+    margin: 30px;
+}
+.contenido_third_index_foto{
+    margin: 10px;
+}
+
+/*Parrafos centrales*/
+.parrafo_one{
+    text-align: center;
+    margin: 40px;
+}
+.parrafo_classic{
+    margin: 20px 60px;
+}
+.parrafo_classic_two{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/*ABOUT - PARRAFO - caja de imagen y texto*/
+.about_grid{
+    display:grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 400px 300px;
+        grid-gap: 15px;
+    margin: 30px auto;
+}
+
+.img_grid_one{
+    width: 282px;
+    height: 390px;
+    justify-self: end;
+    align-self: end;
+}
+.img_grid_one:hover{
+    transition: all 4s;
+    transform: scale(2,2);
+}
+.img_grid_two{
+    width: 466px;
+    height: 308px;
+    justify-self: center;
+    align-self: end;
+}
+.img_grid_two:hover{
+    transition: all 4s;
+    transform: scale(2,2);
+}
+.img_grid_three{
+    width: 310px;
+    height: 205px;
+    justify-self: start;
+    align-self: end;
+}
+.img_grid_three:hover{
+    transition: all 4s;
+    transform: scale(2,2);
+}
+.img_grid_four{
+    width: 399px;
+    height: 266px;
+    justify-self: end;
+    align-self: start;
+}
+.img_grid_four:hover{
+    transition: all 4s;
+    transform: scale(2,2);
+}
+.img_grid_five{
+    width:500px ;
+    height:220px;
+    justify-self: center;
+    align-self: start;
+}
+.img_grid_five:hover{
+    transition: all 4s;
+    transform: scale(2,2);
+}
+.img_grid_six{
+    width: 192px;
+    height: 300px;
+    justify-self: start;
+    align-self: start;
+}
+.img_grid_six:hover{
+    transition: all 4s;
+    transform: scale(2,2);
+}
+.content_about{
+    padding:20px;
+    margin:20px 20px;
+}
+.content_about_perfil{
+    display: flex;
+    padding: 20px;
+    margin: 40px 60px;
+}
+.content_about_img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 10px solid rgb(240, 232, 223);
+}
+.content_about_parrafo_perfil{
+    text-align: center;
+    margin:  50px 30px;
+}
+.content_about_parrafo_bottom{
+    text-align: center;
+    padding: 30px;
+    margin: 40px 80px;
+}
+.img_about_bottom{
+    display: block;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+/*SCHEDULE*/
+.content_schedule{
+    margin: 50px 30px 70px 30px;
+}
+.tablaTitle{
+    color: #a67e85;
+}
+.tablaSchedule{
+    background-color: rgb(214, 200, 184);
+    margin: auto;
+    padding: 15px ;
+}
+.tablaCentrado{
+    text-align: center;
+}
+
+/*TRAINNERS - caja img Posturas*/
+.img_training_posturas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+}
+.imgPostura1{
+    width: 350px;
+    height: 350px;
+}
+.imgPostura2{
+    width: 596px;
+    height: 324px;
+}
+.grid_training_redondo{
+    width: 250px;
+    height: 250px;
+    margin: 30px 70px;
+    border-radius: 120%;
+}
+.grid_training_redondo:hover{
+    transition: all 3s;
+    transform: scale(2,2);
+}
+.parrafo_training{
+    text-align: center;
+    display: block;
+    padding:30px;
+    margin:20px 30px 30px 20px;
+}
+.phraseBottom{
+    color:#8C6169;
+    font-size: 40px;
+    font-weight: bolder;
+    word-spacing: 15px;
+    letter-spacing: 8px;
+    text-align: center;
+    display: block;
+    margin: 50px 80px 50px 80px;
+    padding: 50px;
+}
+.phraseBottom:hover{
+    font-size: 5em;
+    color: #4b2e33;
+    transition: all 3s;
+}
+
+/*CONTACT*/
+/*SIGNUP*/
+.imgCentralS{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    margin-top: 10px;
+}
+.centerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario{
+    margin: 20px 30px;
+    padding: 20px;
+}
+.gender{
+    margin-top: 10px;
+}
+.displayLevel{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.signupTitle{
+    color:#8C6169 ;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    word-spacing: 4px;
+}
+.phraseBottomSign{
+    color:#8C6169;
+    font-size: 30px;
+    font-weight: bolder;
+    word-spacing: 10px;
+    letter-spacing: 8px;
+    text-align: center;
+    padding: 20px;
+}
